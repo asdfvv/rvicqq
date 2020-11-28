@@ -95,7 +95,7 @@ const qqreadurlVal = 'https://mqqapi.reader.qq.com/mqq/user/init'
 
 
 const qqreadheaderKey = 'qqreadhd'+jbid
-const qqreadheaderVal= JSON.stringify({"Cookie": "ywguid=330508470;ywkey=yw95U6TpE7RX;platform=android;channel=mqqmina;mpVersion=0.30.0",
+const qqreadheaderVal= JSON.stringify({"Cookie": "ywguid=33930014;ywkey=ywTD9qxeoMb8;platform=ios;channel=mqqmina;mpVersion=0.30.0",
 "mpVersion": "0.30.0",
 "YwSession": "s5gifkaou2zz6nv3hehp6bnutti9csa1",
 "Referer": "https://appservice.qq.com/1110657249/0.30.0/page-frame.html",
@@ -114,7 +114,7 @@ const qqreadtimeurlVal = "https://mqqapi.reader.qq.com/mqq/addReadTimeWithBid?sc
 
 
 const qqreadtimeheaderKey = 'qqreadtimehd'+jbid
-const qqreadtimeheaderVal= JSON.stringify({"Cookie": "ywguid=330508470;ywkey=yw95U6TpE7RX;platform=android;channel=mqqmina;mpVersion=0.30.0;qq_ver=8.3.9;os_ver=Android 9;mpos_ver=1.16.0;platform=android;openid=7B167F7E43BE65C9091AE1F3E2CBC2D9",
+const qqreadtimeheaderVal= JSON.stringify({"Cookie": "ywguid=33930014;ywkey=ywTD9qxeoMb8;platform=ios;channel=mqqmina;mpVersion=0.30.0;qq_ver=8.4.17;os_ver=iOS 14.2;mpos_ver=1.21.0;platform=ios;openid=871822725D6C952B3BAD373C3FE8D3F3",
 "mpVersion": "0.30.0",
 "YwSession": "s5gifkaou2zz6nv3hehp6bnutti9csa1",
 "Referer": "https://appservice.qq.com/1110657249/0.30.0/page-frame.html",
