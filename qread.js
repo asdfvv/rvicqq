@@ -91,24 +91,38 @@ const wktimess=1200//周奖励领取标准，默认1200分钟
 
 
 const qqreadurlKey = 'qqreadurl'+jbid
-const qqreadurlVal = $.getdata(qqreadurlKey)
+const qqreadurlVal = 'https://mqqapi.reader.qq.com/mqq/user/init'
 
 
 const qqreadheaderKey = 'qqreadhd'+jbid
-const qqreadheaderVal= $.getdata(qqreadheaderKey)
+const qqreadheaderVal= JSON.stringify({"Cookie": "ywguid=330508470;ywkey=yw95U6TpE7RX;platform=android;channel=mqqmina;mpVersion=0.30.0",
+"mpVersion": "0.30.0",
+"YwSession": "s5gifkaou2zz6nv3hehp6bnutti9csa1",
+"Referer": "https://appservice.qq.com/1110657249/0.30.0/page-frame.html",
+"User-Agent": "Mozilla/5.0 (Linux; Android 9; Redmi Note 7 Build/PKQ1.180904.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 QQ/MiniApp QQ/8.3.9",
+"content-type": "application/json",
+"Host": "mqqapi.reader.qq.com",
+"Connection": "Keep-Alive",
+"Accept-Encoding": "gzip"})
 
 const qqreadbodyKey = 'qqreadbody'+jbid
-const qqreadbodyVal = $.getdata(qqreadbodyKey)
-
-
+const qqreadbodyVal = 'undefined'
 
 
 const qqreadtimeurlKey = 'qqreadtimeurl'+jbid
-const qqreadtimeurlVal = $.getdata(qqreadtimeurlKey)
+const qqreadtimeurlVal = "https://mqqapi.reader.qq.com/mqq/addReadTimeWithBid?scene=2016&refer=-1&bid=26878703&readTime=8313&read_type=0&conttype=1&read_status=0&chapter_info=%5B%7B%221%22%3A%7B%22readTime%22%3A8313%2C%22pay_status%22%3A0%7D%7D%5D&sp=-1"
 
 
 const qqreadtimeheaderKey = 'qqreadtimehd'+jbid
-const qqreadtimeheaderVal= $.getdata(qqreadtimeheaderKey)
+const qqreadtimeheaderVal= JSON.stringify({"Cookie": "ywguid=330508470;ywkey=yw95U6TpE7RX;platform=android;channel=mqqmina;mpVersion=0.30.0;qq_ver=8.3.9;os_ver=Android 9;mpos_ver=1.16.0;platform=android;openid=7B167F7E43BE65C9091AE1F3E2CBC2D9",
+"mpVersion": "0.30.0",
+"YwSession": "s5gifkaou2zz6nv3hehp6bnutti9csa1",
+"Referer": "https://appservice.qq.com/1110657249/0.30.0/page-frame.html",
+"User-Agent": "Mozilla/5.0 (Linux; Android 9; Redmi Note 7 Build/PKQ1.180904.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 QQ/MiniApp QQ/8.3.9",
+"content-type": "application/json",
+"Host": "mqqapi.reader.qq.com",
+"Connection": "Keep-Alive",
+"Accept-Encoding": "gzip"})
 
 
 
