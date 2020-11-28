@@ -95,7 +95,7 @@ const qqreadurlVal = 'https://mqqapi.reader.qq.com/mqq/user/init'
 
 
 const qqreadheaderKey = 'qqreadhd'+jbid
-const qqreadheaderVal= JSON.stringify({"Cookie": "COOKIE_QQYD",
+const qqreadheaderVal= JSON.stringify({"Cookie": "ywguid=33930014;ywkey=ywTD9qxeoMb8;platform=ios;channel=mqqmina;mpVersion=0.30.0",
 "mpVersion": "0.30.0",
 "YwSession": "s5gifkaou2zz6nv3hehp6bnutti9csa1",
 "Referer": "https://appservice.qq.com/1110657249/0.30.0/page-frame.html",
